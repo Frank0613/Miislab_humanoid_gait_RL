@@ -13,7 +13,7 @@ import Miislab_humanoid_gait_RL.tasks  # noqa: F401
 def test_task_registrations():
     """The project tasks must expose valid environment and agent entry points."""
     expected = {
-        "MiislabHumanoidGaitRl-Humanoid-Gait-Rl-G1-Direct": {
+        "Miislab-Humanoid-Gait-Rl-G1-Direct-v1": {
             "entry_point": "Miislab_humanoid_gait_RL.tasks.humanoid_gait_rl_direct.config.g1.env:HumanoidGaitRlEnv",
             "env_cfg_entry_point": "Miislab_humanoid_gait_RL.tasks.humanoid_gait_rl_direct.config.g1.env_cfg:HumanoidGaitRlEnvCfg",
             "default_agent": "skrl",

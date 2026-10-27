@@ -3,7 +3,7 @@
 An installable downstream Isaac Lab task package with a standard uv `src` layout.
 
 The registered tasks are:
-- `MiislabHumanoidGaitRl-Humanoid-Gait-Rl-G1-Direct`
+- `Miislab-Humanoid-Gait-Rl-G1-Direct-v1`
 
 
 ## Installation

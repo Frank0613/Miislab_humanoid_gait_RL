@@ -18,7 +18,7 @@ authors = [
 ]
 requires-python = ">=3.12,<3.13"
 dependencies = [
-    "isaaclab-dev[skrl]",
+    "isaaclab-dev[skrl,isaacsim]",
 ]
 
 [project.entry-points."isaaclab.tasks"]

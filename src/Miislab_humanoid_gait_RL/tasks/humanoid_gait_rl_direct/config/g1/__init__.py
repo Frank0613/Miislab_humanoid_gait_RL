@@ -13,7 +13,7 @@ from . import agents
 
 
 gym.register(
-    id="MiislabHumanoidGaitRl-Humanoid-Gait-Rl-G1-Direct",
+    id="Miislab-Humanoid-Gait-Rl-G1-Direct-v1",
     entry_point=f"{__name__}.env:HumanoidGaitRlEnv",
     disable_env_checker=True,
     kwargs={
